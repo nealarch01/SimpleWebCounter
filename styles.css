@@ -1,0 +1,45 @@
+
+body {
+    background-color: #282828;
+}
+.main {
+    text-align: center;
+}
+
+button.increment {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+button.decrement {
+    background-color: red;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+button.reset {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding: 9px 9px;
+}
+
+p.counterText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin-top: 225px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
