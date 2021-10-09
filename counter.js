@@ -1,8 +1,7 @@
 var count = 0;
 var ctrTextElem = document.getElementById("counterDisplay");
-const timeDelayMS = 500; // 0.75 seconds
 
-function updateCounter(num, event) {
+function updateCounter(num) {
     if(count === 10000 || count === -10000) return;
     count += num;
     switch(count) {
@@ -17,10 +16,7 @@ function updateCounter(num, event) {
             break;
     }
     ctrTextElem.innerHTML = count;
-    event.preventDefault();
 }
-
-
 
 function increaseCount() {
     updateCounter(1);
